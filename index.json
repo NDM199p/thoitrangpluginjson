@@ -1,22 +1,19 @@
 {
   "plugins": [
     {
-      "name": "Plugin 1",
-      "slug": "plugin-1",
-      "source": "https://example.com/plugins/plugin-1.zip",
-      "required": true,
-      "version": "1.0.0",
-      "force_activation": true,
-      "force_deactivation": false
+      "name": "Rank Math SEO",
+      "slug": "seo-by-rank-math",
+      "required": true
     },
     {
-      "name": "Plugin 2",
-      "slug": "plugin-2",
-      "source": "https://example.com/plugins/plugin-2.zip",
-      "required": false,
-      "version": "2.1.0",
-      "force_activation": false,
-      "force_deactivation": false
+      "name": "WooCommerce",
+      "slug": "woocommerce",
+      "required": true
+    },
+    {
+      "name": "Elementor",
+      "slug": "elementor",
+      "required": false
     }
   ]
 }
